@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: jasperget/hello-golang
+          images: jasperget/final12
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
